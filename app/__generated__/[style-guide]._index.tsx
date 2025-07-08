@@ -4,14 +4,14 @@
 
       import { Fragment, useState } from "react";
       import { useResource, useVariableState } from "@webstudio-is/react-sdk/runtime";
-      import { Fragment as Fragment_1, HtmlEmbed as HtmlEmbed, Box as Box, Image as Image, Text as Text, Heading as Heading, Paragraph as Paragraph, Span as Span, Blockquote as Blockquote, List as List, ListItem as ListItem, Separator as Separator, CodeText as CodeText, Bold as Bold, Slot as Slot, Button as Button } from "@webstudio-is/sdk-components-react";
+      import { Fragment as Fragment_1, HtmlEmbed as HtmlEmbed, Box as Box, Image as Image, Heading as Heading, Text as Text, Paragraph as Paragraph, Span as Span, Blockquote as Blockquote, List as List, ListItem as ListItem, Separator as Separator, CodeText as CodeText, Bold as Bold, Slot as Slot, Button as Button } from "@webstudio-is/sdk-components-react";
 import { Link as Link, Body as Body, RichTextLink as RichTextLink } from "@webstudio-is/sdk-components-react-router";
-import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuList, NavigationMenuViewport as NavigationMenuViewport, NavigationMenuItem as NavigationMenuItem, NavigationMenuLink as NavigationMenuLink, Dialog as Dialog, DialogTrigger as DialogTrigger, DialogOverlay as DialogOverlay, DialogContent as DialogContent, DialogClose as DialogClose } from "@webstudio-is/sdk-components-react-radix";
+import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuList, NavigationMenuItem as NavigationMenuItem, NavigationMenuLink as NavigationMenuLink, Dialog as Dialog, DialogTrigger as DialogTrigger, DialogOverlay as DialogOverlay, DialogContent as DialogContent, DialogClose as DialogClose, NavigationMenuViewport as NavigationMenuViewport } from "@webstudio-is/sdk-components-react-radix";
 
 
       export const projectId = "e96e52b0-21fb-40f7-a703-f0edb2134a6d";
 
-      export const lastPublished = "2025-04-28T20:42:36.839Z";
+      export const lastPublished = "2025-07-08T20:33:53.143Z";
 
       export const siteName = "Flowint Template";
 
@@ -738,11 +738,6 @@ className={`w-button c12h1spu c4ctj73 cq4mukj c6iiy3n cnd39nk cpb2v0v c3a826z c1
 </Button>
 </Box>
 </NavigationMenuList>
-<Box
-className={`w-box cwdlaet cshmfxu cfwaltj c1wre12j c18ww0nc`}>
-<NavigationMenuViewport
-className={`w-menu-viewport c168a0c2 c3sces c19cbxyg c4e00g1 c19dw0wo c1acabzx c1yrsh9m c18ge2lk cl22mbo ctqz7ba clo1jk c1rdhjlk c17uyd3j c1q0iprw`} />
-</Box>
 </NavigationMenu>
 <Dialog>
 <DialogTrigger>
@@ -1033,31 +1028,13 @@ className={`w-rich-text-link czxtlv3 cqxsnw5 cs190iw c5s04m8 c1mp6d9l cv7u2xn cb
 </Text>
 <Text
 className={`w-text`}>
-{"Powered by Webstudio"}
+{"Powered by It's Ivan"}
 </Text>
 </Box>
 </Box>
 </Box>
 </Box>
 </Box>
-<Link
-href={"https://webstudio.is/"}
-target={"_blank"}
-rel={"nofollow"}
-className={`w-link crkuuid ch04a1m c1a2q8c3 crjjrj2 c12u1ixd cjpkcwt c1fy3h19 c1k21cms cu8pb8p c1idsgxj cdfkwjn c3a826z c1wp1mp9 c1boufi4 cyjel2r c1181g77 c105db3m c139p8ps c1qq3k23 c15n3vgk c17gn2jx c3uwkx5 c18ww0nc cj5sz98 cqxsnw5 c7ojujn c1btjbc3 c1qndxyv c1kuadrm caty2by c1borc54 cr4w10t c15mksln c1qp4xfs c6ullu6`}>
-<Image
-src={"/assets/logo_r1qaJQiri6sK3rPyq-Sar.svg"}
-width={20}
-height={20}
-alt={"Webstudio Logo"}
-optimize={false}
-className={`w-image c6uu2p6 c4q9cpf`} />
-<Text
-tag={"span"}
-className={`w-text`}>
-{"Built with Webstudio"}
-</Text>
-</Link>
 </Fragment_1>
 </Slot>
 </Box>

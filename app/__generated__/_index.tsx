@@ -5,13 +5,13 @@
       import { Fragment, useState } from "react";
       import { useResource, useVariableState } from "@webstudio-is/react-sdk/runtime";
       import { Body as Body, Link as Link, RichTextLink as RichTextLink } from "@webstudio-is/sdk-components-react-router";
-import { Fragment as Fragment_1, HtmlEmbed as HtmlEmbed, Box as Box, Image as Image, Text as Text, Slot as Slot, Button as Button, Heading as Heading, Paragraph as Paragraph, Bold as Bold } from "@webstudio-is/sdk-components-react";
-import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuList, NavigationMenuViewport as NavigationMenuViewport, NavigationMenuItem as NavigationMenuItem, NavigationMenuLink as NavigationMenuLink, Dialog as Dialog, DialogTrigger as DialogTrigger, DialogOverlay as DialogOverlay, DialogContent as DialogContent, DialogClose as DialogClose, Tabs as Tabs, TabsList as TabsList, TabsContent as TabsContent, TabsTrigger as TabsTrigger } from "@webstudio-is/sdk-components-react-radix";
+import { Fragment as Fragment_1, HtmlEmbed as HtmlEmbed, Box as Box, Image as Image, Slot as Slot, Button as Button, Heading as Heading, Paragraph as Paragraph, Text as Text, Bold as Bold } from "@webstudio-is/sdk-components-react";
+import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuList, NavigationMenuItem as NavigationMenuItem, NavigationMenuLink as NavigationMenuLink, Dialog as Dialog, DialogTrigger as DialogTrigger, DialogOverlay as DialogOverlay, DialogContent as DialogContent, DialogClose as DialogClose, NavigationMenuViewport as NavigationMenuViewport, Tabs as Tabs, TabsList as TabsList, TabsContent as TabsContent, TabsTrigger as TabsTrigger } from "@webstudio-is/sdk-components-react-radix";
 
 
       export const projectId = "e96e52b0-21fb-40f7-a703-f0edb2134a6d";
 
-      export const lastPublished = "2025-04-28T20:42:36.839Z";
+      export const lastPublished = "2025-07-08T20:33:53.143Z";
 
       export const siteName = "Flowint Template";
 
@@ -126,11 +126,6 @@ className={`w-button c12h1spu c4ctj73 cq4mukj c6iiy3n cnd39nk cpb2v0v c3a826z c1
 </Button>
 </Box>
 </NavigationMenuList>
-<Box
-className={`w-box cwdlaet cshmfxu cfwaltj c1wre12j c18ww0nc`}>
-<NavigationMenuViewport
-className={`w-menu-viewport c168a0c2 c3sces c19cbxyg c4e00g1 c19dw0wo c1acabzx c1yrsh9m c18ge2lk cl22mbo ctqz7ba clo1jk c1rdhjlk c17uyd3j c1q0iprw`} />
-</Box>
 </NavigationMenu>
 <Dialog>
 <DialogTrigger>
@@ -1349,34 +1344,27 @@ className={`w-rich-text-link czxtlv3 cqxsnw5 cs190iw c5s04m8 c1mp6d9l cv7u2xn cb
 </Text>
 <Text
 className={`w-text`}>
-{"Powered by Webstudio"}
+{"Powered by It's Ivan"}
 </Text>
 </Box>
 </Box>
 </Box>
 </Box>
 </Box>
-<Link
-href={"https://webstudio.is/"}
-target={"_blank"}
-rel={"nofollow"}
-className={`w-link crkuuid ch04a1m c1a2q8c3 crjjrj2 c12u1ixd cjpkcwt c1fy3h19 c1k21cms cu8pb8p c1idsgxj cdfkwjn c3a826z c1wp1mp9 c1boufi4 cyjel2r c1181g77 c105db3m c139p8ps c1qq3k23 c15n3vgk c17gn2jx c3uwkx5 c18ww0nc cj5sz98 cqxsnw5 c7ojujn c1btjbc3 c1qndxyv c1kuadrm caty2by c1borc54 cr4w10t c15mksln c1qp4xfs c6ullu6`}>
-<Image
-src={"/assets/logo_r1qaJQiri6sK3rPyq-Sar.svg"}
-width={20}
-height={20}
-alt={"Webstudio Logo"}
-optimize={false}
-className={`w-image c6uu2p6 c4q9cpf`} />
-<Text
-tag={"span"}
-className={`w-text`}>
-{"Built with Webstudio"}
-</Text>
-</Link>
 </Fragment_1>
 </Slot>
 </Box>
+<a
+href={"https://webstudio.is/?via=badge"}
+target={"_blank"}
+className={`cj5sz98 c15n3vgk c1qq3k23 c3uwkx5 c18ww0nc c1k21cms c1tcn6m9 c12u1ixd crjjrj2 cjpkcwt c1a2q8c3 cdfkwjn c1idsgxj c1pzdmqh c1qndxyv c105db3m c1ewm8gh cj5l4mp clrpjho c2dfrl3 c1ay7ata ce7r6uz cqxsnw5 c7ojujn c1btjbc3 c1qbvg5o cqy16b1 cem3g4i`}>
+<HtmlEmbed
+code={"<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 16 16\" width=\"100%\" height=\"100%\" style=\"display: block;\"><path fill-rule=\"evenodd\" d=\"m12.32 12.416 2.62-8.085a1.205 1.205 0 1 0-2.292-.746l-2.62 8.084a1.205 1.205 0 1 0 2.292.747Z\" clip-rule=\"evenodd\"/><path fill-rule=\"evenodd\" d=\"M8 7.624c.297 0 .517.175.704.394.207.243.373.545.514.866.634 1.44.753 3.241.753 3.241a1.206 1.206 0 0 0 1.285 1.122 1.207 1.207 0 0 0 1.12-1.287s-.16-2.25-.952-4.05C10.744 6.364 9.594 5.208 8 5.208c-1.594 0-2.744 1.156-3.424 2.7-.792 1.8-.951 4.05-.951 4.05a1.207 1.207 0 0 0 1.12 1.288 1.206 1.206 0 0 0 1.284-1.122s.119-1.8.753-3.24a3.52 3.52 0 0 1 .514-.867c.187-.22.406-.394.704-.394Z\" clip-rule=\"evenodd\"/><path fill-rule=\"evenodd\" d=\"M5.973 11.669 3.352 3.585a1.205 1.205 0 1 0-2.293.746l2.622 8.084a1.205 1.205 0 1 0 2.292-.746Z\" clip-rule=\"evenodd\"/></svg>"}
+className={`w-html-embed c1au6s20 c1iiacpt c17rdxi7 c11ntkaz`} />
+<div>
+{"Built with Webstudio"}
+</div>
+</a>
 </Body>
 }
 
