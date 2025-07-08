@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "e96e52b0-21fb-40f7-a703-f0edb2134a6d";
 
-      export const lastPublished = "2025-07-08T20:33:53.143Z";
+      export const lastPublished = "2025-07-08T21:03:48.170Z";
 
       export const siteName = "Flowint Template";
 
