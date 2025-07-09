@@ -11,7 +11,7 @@ import { NavigationMenu as NavigationMenu, NavigationMenuList as NavigationMenuL
 
       export const projectId = "e96e52b0-21fb-40f7-a703-f0edb2134a6d";
 
-      export const lastPublished = "2025-07-08T21:03:48.170Z";
+      export const lastPublished = "2025-07-09T12:48:54.362Z";
 
       export const siteName = "Flowint Template";
 
@@ -264,11 +264,6 @@ className={`w-button c12h1spu c4ctj73 cq4mukj c6iiy3n cnd39nk cpb2v0v c3a826z c1
 tag={"span"}
 className={`w-text cbmvciw`}>
 {"No credit card required"}
-</Text>
-<Text
-tag={"span"}
-className={`w-text cbmvciw`}>
-{"Realizando um teste de atualização! 😉"}
 </Text>
 </Box>
 </Box>
@@ -1359,6 +1354,8 @@ className={`w-text`}>
 </Fragment_1>
 </Slot>
 </Box>
+<div
+className={`cgv3d8u`}>
 <a
 href={"https://webstudio.is/?via=badge"}
 target={"_blank"}
@@ -1370,6 +1367,7 @@ className={`w-html-embed c1au6s20 c1iiacpt c17rdxi7 c11ntkaz`} />
 {"Built with Webstudio"}
 </div>
 </a>
+</div>
 </Body>
 }
 
